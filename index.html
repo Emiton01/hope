@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hope Chapel Church</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <script defer src="js/index.js"></script>
+    <style>
+        /* Custom CSS */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #007bff; /* Bootstrap Primary Blue */
+    color: white;
+    padding: 15px 0;
+}
+
+.navbar-brand img {
+    max-width: 50px;
+}
+
+.navbar {
+    padding: 10px 0;
+}
+
+
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-brand img {
+    max-width: 50px;
+}
+
+.hero {
+    background: url('images/hero-bg.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 80px 0;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.quote-box {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.event-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+    </style>
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-3">
+        <div class="container">
+            <h1>Welcome to</h1>
+            <h1>Hope Chapel Church</h1>
+        </div>
+    </header>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <!-- LOGO on the left -->
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="images/logo.jpg" alt="Hope Chapel Church" style="width: 50px; height: auto; margin-right: 10px;">
+                <span class="font-weight-bold">Hope Chapel Church</span>
+            </a>
+    
+            <!-- Toggle Button for Mobile -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#quotes">Bible Quotes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#events">Upcoming Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+    
+                <!-- Login & Signup Buttons -->
+                <div class="d-flex">
+                    <a href="login.php" class="btn btn-primary ml-2">Login</a>
+                    <a href="signup.php" class="btn btn-secondary ml-2">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    
+    <!-- Hero Section -->
+    <section class="hero bg-primary text-white text-center py-5">
+        <div class="hero-content">
+            <h1>"For where two or three gather in my name, there am I with them." - Matthew 18:20</h1>
+            <p>Join us in worship, prayer, and community service as we grow in faith together.</p>
+            <a href="signup.php" class="btn btn-light">Join Our Church</a>
+        </div>
+    </section>
+
+    <!-- Bible Quotes Section -->
+    <section id="quotes" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Inspirational Bible Quotes</h2>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="quote-box bg-light p-4 text-center">
+                        <p>"Trust in the Lord with all your heart and lean not on your own understanding." - Proverbs 3:5</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="quote-box bg-light p-4 text-center">
+                        <p>"I can do all things through Christ who strengthens me." - Philippians 4:13</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="quote-box bg-light p-4 text-center">
+                        <p>"Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go." - Joshua 1:9</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Church Gallery</h2>
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <img src="images/Black and Cyan Bold Online Business Conference Banner.png" alt="Youth Fellowship" class="img-fluid rounded">
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <img src="images/hope3.png" alt="Community Outreach" class="img-fluid rounded">
+                </div>
+                <div class="col-md-3 mb-3">
+                    <img src="images/hope4.png" alt="Youth Fellowship" class="img-fluid rounded">
+                </div>
+                <div class="col-md-3 mb-3">
+                    <img src="images/hope5.png" alt="Youth Fellowship" class="img-fluid rounded">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming Events Section -->
+    <section id="events" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Upcoming Events</h2>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="event-box">
+                        <img src="images/event.jpg" alt="Event Poster" class="img-fluid mb-3">
+                        <h3>Sunday Worship Service</h3>
+                        <p>Join us every Sunday at 9 AM for a powerful worship experience.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="event-box">
+                        <img src="images/event1.jpg" alt="Event Poster" class="img-fluid mb-3">
+                        <h3>Midweek Prayer</h3>
+                        <p>Every Wednesday at 6 PM, let's come together in prayer.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="event-box">
+                        <img src="images/purity.png" alt="Event Poster" class="img-fluid mb-3">
+                        <h3>Youth Conference 2024</h3>
+                        <p>A time of worship, fellowship, and fun! 25th July - 27th July.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <p class="text-center">Email: info@hopechapelchurch.com | Phone: 0745123456</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-3">
+        <div class="container text-center">
+            <p>&copy; 2024 Hope Chapel Church | Designed by Newton</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
